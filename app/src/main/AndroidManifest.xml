@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.makinemhendisligivikipedisi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Dersler.ElektrikteGucActivity"></activity>
+        <activity android:name=".Dersler.ElektrikteİsActivity" />
+        <activity android:name=".Dersler.ElektrikEnerjisiActivity" />
+        <activity android:name=".Dersler.logaritmaActivity" />
+        <activity android:name=".Dersler.fonksiyonlarActivity" />
+        <activity android:name=".Dersler.IntegralActivity" />
+        <activity android:name=".Dersler.TurevActivity" />
+        <activity android:name=".Dersler.AlternatifAkimActivity" />
+        <activity android:name=".Dersler.BasitDevrelerActivity" />
+        <activity android:name=".Dersler.ozkutleActivity" />
+        <activity android:name=".Dersler.boyuttaHareket" />
+        <activity android:name=".Dersler.daireselHareket" />
+        <activity android:name=".Dersler.dogrusalMomentum" />
+        <activity android:name=".Dersler.fizikOlcmeAcitivity" />
+        <activity android:name=".Dersler.FaktoriyelActivity" />
+        <activity android:name=".Dersler.ElektronikActivity" />
+        <activity android:name=".Dersler.MatActivity" />
+        <activity android:name=".Dersler.FizikActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

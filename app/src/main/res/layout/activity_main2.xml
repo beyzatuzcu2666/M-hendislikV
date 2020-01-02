@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    tools:context=".Main2Activity">
+
+    <Button
+        android:id="@+id/elektronikButon"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="120dp"
+
+
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="84dp"
+        android:background="@drawable/buttonders2"
+        android:onClick="elektronikTikla"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="ELEKTRONİK DEVRELER"
+        android:textColor="#CCFFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/matButon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fizikButon" />
+
+    <Button
+        android:id="@+id/matButon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+
+        android:layout_marginBottom="69dp"
+        android:background="@drawable/buttonders3"
+        android:onClick="matTikla"
+
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="MATEMATİK"
+        android:textColor="#CCFFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/elektronikButon"
+        app:layout_constraintStart_toStartOf="@+id/elektronikButon"
+        app:layout_constraintTop_toBottomOf="@+id/elektronikButon" />
+
+    <Button
+        android:id="@+id/fizikButon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="63dp"
+
+
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/buttonders"
+        android:onClick="fizikTikla"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="FİZİK"
+        android:textColor="#CCF8F8F8"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/elektronikButon"
+        app:layout_constraintEnd_toEndOf="@+id/elektronikButon"
+        app:layout_constraintStart_toStartOf="@+id/elektronikButon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
